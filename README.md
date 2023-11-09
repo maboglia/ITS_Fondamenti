@@ -70,4 +70,3 @@
 - Raccomandazioni su risorse online per approfondire gli argomenti.
 - Suggerimenti per i prossimi passi, corsi o attività per continuare l'apprendimento.
 
-Ogni dovrebbe includere una combinazione di testo, immagini, grafici o esempi di codice per illustrare i concetti in modo chiaro e coinvolgente.
