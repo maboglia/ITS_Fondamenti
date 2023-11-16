@@ -1,9 +1,4 @@
----
-marp: false
-title: Corso di programmazione Javascript
-paginate: true
-author: mauro
----
+
 
 
 Mauro Bogliaccino
