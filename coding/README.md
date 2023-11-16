@@ -230,3 +230,14 @@ console.log(bubbleSort(numeriDaOrdinare));
 ```
 
 Questi snippet di codice illustrano concetti come variabili, istruzioni di controllo, funzioni e un esempio di algoritmo (Bubble Sort) in JavaScript. Potrebbero essere utilizzati per mostrare agli studenti come funzionano in pratica questi concetti durante la lezione.
+
+
+---
+
+## Approfondimenti
+
+* [Problemi Informatici](https://github.com/maboglia/Fondamenti/blob/master/001_ProblemiInformatici.md)
+* [OOP](https://github.com/maboglia/Fondamenti/blob/master/005_OOP.md)
+* [Procedurale](https://github.com/maboglia/Fondamenti/blob/master/003_Procedurale.md)
+* [Funzionale](https://github.com/maboglia/Fondamenti/blob/master/003_Funzionale.md)
+* [Pensiero computazionale](https://github.com/maboglia/Fondamenti/blob/master/030_PensieroComputazionale.md)
