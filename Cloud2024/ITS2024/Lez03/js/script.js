@@ -1,4 +1,6 @@
 console.log(STUDENTI);
+
+
 //class
 
 // for(let i = 0; i < STUDENTI.length; i++){
