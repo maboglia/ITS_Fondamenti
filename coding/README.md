@@ -1,6 +1,6 @@
 # coding
 
-Il "coding" o programmazione è il processo di creazione di istruzioni che un computer può eseguire. Coinvolge la scrittura di codice in un linguaggio di programmazione specifico per definire le azioni che un computer deve svolgere. Questo codice, sotto forma di istruzioni, comandi e logica, consente di creare software, applicazioni, siti web e molto altro.
+Il "coding" o programmazione è il **processo di creazione di istruzioni che un computer può eseguire**. Coinvolge la scrittura di codice in un linguaggio di programmazione specifico per definire le azioni che un computer deve svolgere. Questo codice, sotto forma di istruzioni, comandi e logica, consente di creare software, applicazioni, siti web e molto altro.
 
 ---
 
