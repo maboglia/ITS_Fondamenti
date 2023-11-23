@@ -1,3 +1,4 @@
+const STUDENTI = [
 ['Thinh',	'Bubbio'],
 ['Alonso',	'Carrillo'],
 ['enrico',	'ferro'],
@@ -23,4 +24,5 @@
 ['Mattia',	'Brondino'],
 ['Luca',	'Pergola'],
 ['alessandro',	'cojocariu'],
-['Lansana',	'Camara'],
+['Lansana',	'Camara']
+]
