@@ -28,6 +28,8 @@ Un modo comune è usare un "diagramma di flusso". È come una mappa che mostra p
 
 ---
 
+## Definizione di algoritmo
+
 * Un algoritmo è una descrizione dettagliata, per passi elementari successivi, di una strategia utile per risolvere un determinato problema.
 * Ogni algoritmo è un insieme finito di passi e deve terminare dopo un numero finito di iterazioni.
 * Nella progettazione di un algoritmo il programmatore inizia a porsi problemi relativi alla rappresentazione delle informazioni che deve essere efficiente (senza sprechi inutili) ed efficace (non si deve perdere traccia di dati importanti).
