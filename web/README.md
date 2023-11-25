@@ -4,7 +4,7 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 
 ## Il Mondo del Web e Programmazione
 
-### Architettura del Web
+### [Architettura del Web](./architetture_web.md)
 
 1. **Client-Server:**
    - Fondamentale architettura di Internet, in cui i client (browser) richiedono risorse e i server le forniscono.
@@ -102,7 +102,7 @@ I nodi dell’albero sono di varia natura:
 * nodi attributo (attribute nodes)
 * ...
 
-[Vedi documento dedicato al DOM](http://moodle.its-ictpiemonte.it/pluginfile.php/2353/mod_resource/content/1/2016_webstandard2_DOM.pdf)
+
 
 
 
@@ -117,7 +117,7 @@ I nodi dell’albero sono di varia natura:
 	</head>
 	<body>
 		<h1>Hello World!</h1>
-		<p>While this is a <strong>very basic HTML document</strong>, 		it actually serves as a detailed example of the document object 			model.</p>
+		<p>While this is a <strong>very basic HTML document</strong>, 	it actually serves as a detailed example of the document object model.</p>
 </body>
 </html>
 ```
