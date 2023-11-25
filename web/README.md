@@ -1,8 +1,10 @@
-# web e programmazione
+# Il Web e la Programmazione
 
-Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti darò una panoramica generale, ma se hai domande specifiche o vuoi approfondire un particolare aspetto, sentiti libero di chiedere!
 
-## Il Mondo del Web e Programmazione
+Parlare di web e programmazione può coprire una vasta gamma di argomenti: ecco una panoramica generale.
+
+
+---
 
 ### [Architettura del Web](./architetture_web.md)
 
@@ -15,6 +17,8 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 3. **DNS (Domain Name System):**
    - Sistema per tradurre i nomi di dominio in indirizzi IP.
 
+---
+
 ### Linguaggi Web
 
 4. **HTML (HyperText Markup Language):**
@@ -26,6 +30,8 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 6. **JavaScript:**
    - Linguaggio di scripting lato client per rendere le pagine web interattive.
 
+---
+
 ### Programmazione Lato Server
 
 7. **Lato Server:**
@@ -33,6 +39,8 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 
 8. **Framework Backend:**
    - Strumenti come Express.js (Node.js), Django (Python), Ruby on Rails (Ruby) semplificano lo sviluppo del backend.
+
+---
 
 ### Dati e Database
 
@@ -45,6 +53,8 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 11. **Database:**
     - Utilizzo di sistemi di gestione del database come MySQL, PostgreSQL, MongoDB per memorizzare dati.
 
+---
+
 ### Sicurezza e Autenticazione
 
 12. **Sicurezza Web:**
@@ -52,6 +62,8 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 
 13. **OAuth e JWT:**
     - Protocolli per l'autenticazione e l'autorizzazione.
+
+---
 
 ### Strumenti di Sviluppo
 
@@ -61,6 +73,8 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 15. **Controllo di Versione:**
     - Utilizzo di sistemi come Git per gestire le modifiche al codice.
 
+---
+
 ### Paradigmi di Sviluppo
 
 16. **MVC (Model-View-Controller):**
@@ -68,6 +82,8 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti. Ti da
 
 17. **SPA (Single Page Application):**
     - Applicazioni web che operano su una sola pagina, riducendo il caricamento delle pagine.
+
+---
 
 ### Nuove Tecnologie e Tendenze
 
@@ -106,6 +122,8 @@ I nodi dell’albero sono di varia natura:
 
 
 
+---
+
 ### DOM Document Object Model
 
 ```html
@@ -122,17 +140,27 @@ I nodi dell’albero sono di varia natura:
 </html>
 ```
 
+---
+
 ### DOM
 ![DOM](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/DOM.png)
+---
+
 ### element_nodes
 ![element_nodes](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/element_nodes.png)
+---
+
 ### text_nodes
 ![text_nodes](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/text_nodes.png)
 ![text_nodes](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/text_nodes_code.png)
+---
+
 ### attribute_nodes
 ![attribute_nodes](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/attribute_nodes.png)
 ![attribute_nodes](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/attribute_nodes_code.png)
 
+
+---
 
 ### Risorse
 
