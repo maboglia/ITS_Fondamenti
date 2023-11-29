@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="bottone">Cambia</button>
+
+    <h1 id="titolo">Abbigliamento</h1>
+
+    <ul>
+        <li class="red">maglia rossa</li>
+        <li>maglia verd</li>
+        <li class="red">scarpa rossa</li>
+        <li>pantalone blu</li>
+    </ul>
+
+<script>
+
+    
+    const TITLE = document.createElement('h1');
+    TITLE.textContent = "altro titolo"
+    document.getElementById('titolo').after(TITLE)
+
+
+
+    const BTN =  document.getElementById('bottone')
+    const titolo =  document.getElementById('titolo')
+    const prodottiRossi = document.getElementsByClassName('red')
+    
+    console.log(titolo);
+    console.log(prodottiRossi)
+
+    BTN.onclick = function(){
+        cambia()
+    }
+
+    function cambia() {
+        titolo.textContent = "Ho cambiato genere, adesso vendo computer"
+        
+        for (const prodotto of prodottiRossi){
+            prodotto.textContent = prodotto.textContent + " (scontato)"
+        }
+    
+    }
+
+
+</script>
+
+
+</body>
+</html>
