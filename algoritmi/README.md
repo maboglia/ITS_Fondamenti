@@ -1,4 +1,34 @@
-# Algoritmi
+# Algoritmi: Concetti Base
+
+Un algoritmo è come una ricetta dettagliata che ci dice passo dopo passo come risolvere un problema. Immagina di cucinare: ogni passaggio è un'istruzione, e l'intero processo è l'algoritmo. Ecco alcune cose importanti sugli algoritmi:
+
+### Caratteristiche degli Algoritmi
+
+1. **Eseguibilità:** Ogni passaggio deve essere qualcosa che possiamo fare.
+2. **Non Ambiguità:** Ogni passaggio deve essere chiaro e interpretabile.
+3. **Finitezza:** L'algoritmo deve finire in un numero limitato di passaggi.
+
+Se non seguiamo queste regole, la sequenza di istruzioni non può essere chiamata algoritmo.
+
+### Algoritmi vs. Programmi
+
+Quando usiamo un computer per eseguire un algoritmo, dobbiamo dirgli cosa fare e come farlo. Questo è un programma. Quindi, la soluzione a un problema coinvolge:
+
+1. **Individuare un Metodo:** Trovare un modo per risolvere il problema.
+2. **Scomporre in Azioni:** Scrivere le istruzioni passo dopo passo, creando così un algoritmo.
+3. **Rappresentare tramite un Programma:** Scrivere il tutto in un linguaggio che il computer capisce.
+
+### Algoritmi Equivalenti
+
+Immagina di avere due modi diversi per raggiungere lo stesso risultato, come due percorsi per arrivare a casa tua. Gli algoritmi equivalenti sono simili: entrambi risolvono lo stesso problema, ma possono essere fatti in modi diversi.
+
+### Come Rappresentiamo gli Algoritmi
+
+Un modo comune è usare un "diagramma di flusso". È come una mappa che mostra passo dopo passo cosa fare. Ogni azione è un blocco e li collego con linee che mostrano la sequenza di esecuzione. Questo rende facile capire come l'algoritmo fluisce da un passo all'altro.
+
+---
+
+## Definizione di algoritmo
 
 * Un algoritmo è una descrizione dettagliata, per passi elementari successivi, di una strategia utile per risolvere un determinato problema.
 * Ogni algoritmo è un insieme finito di passi e deve terminare dopo un numero finito di iterazioni.
