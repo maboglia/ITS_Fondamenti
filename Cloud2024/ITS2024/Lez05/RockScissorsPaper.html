@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pietra Forbici Carta</title>
+    <style>
+        img {width: 100px;height: 100px;border: 1px solid black;}
+    </style>
+</head>
+<body>
+
+    <div>
+        <img src="https://images.vexels.com/media/users/3/145830/isolated/lists/e529a985fbd2671b43973dc509d21c93-rubble-rock.png" onclick="sceltaUtente(this)" alt="pietra">
+        <img src="https://toppng.com//public/uploads/preview/scissors-icon-black-scissors-icon-115533926943bblntgwm8.png" onclick="sceltaUtente(this)" alt="forbici">
+        <img src="https://e7.pngegg.com/pngimages/153/807/png-clipart-paper-printing-creased-white-paper-texture-angle-thumbnail.png" onclick="sceltaUtente(this)" alt="carta">
+    </div>
+
+    <div id="PC">
+
+    </div>
+
+    <div id="result">
+
+    </div>
+
+    <script>
+
+        const RESULT = document.getElementById('result')
+        const PC = document.getElementById('PC')
+
+        function sceltaPC() {
+            
+           let random =  Math.random();//0 - 0.99999999
+
+            if (random < 0.333)
+                return 'pietra'
+            else if (random < 0.666)
+                return 'forbici'
+            else
+                return 'carta'
+
+        }
+
+        function sceltaUtente(btn){
+             let sceltaU = btn.getAttribute('alt');
+
+             let sceltaP = sceltaPC();
+
+             valuta(sceltaU, sceltaP);
+            PC.textContent = sceltaP
+        }
+
+        function valuta(sceltaUmano, sceltaMacchina) {
+            
+            if (sceltaUmano == sceltaMacchina){
+                RESULT.textContent = 'PAREGGIO';
+            } else {
+                RESULT.textContent = 'NON PAREGGIO';
+
+            }
+
+        }
+
+    </script>
+
+
+
+</body>
+</html>
