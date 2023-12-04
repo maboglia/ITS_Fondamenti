@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="btnCambia">Cambia titolo</button>
+    <h1 id="titolo">Titolo</h1>
+
+    <input type="text" placeholder="Scrivi un colore" id="color">
+
+    <ul>
+        <li class="blu">maglia blu</li>
+        <li>giacca grigia</li>
+        <li class="blu">pantalone blu</li>
+        <li>camicia bianca</li>
+    </ul>
+
+    <script>
+
+        const COLORE = document.getElementById('color')
+        const TITLE = document.getElementById('titolo')
+        const BTN = document.getElementById('btnCambia')
+        const colorBlue = document.getElementsByClassName('blu')
+
+        COLORE.onchange = function () {
+            document.body.style.backgroundColor = COLORE.value
+        }
+
+
+        BTN.onclick = function (){
+            TITLE.textContent = "Negozio abbigliamento"
+
+            for (const vestito of colorBlue) {
+                vestito.textContent = vestito.textContent + "(scontato 30%)" 
+            }
+        }
+        
+        
+    </script>
+
+</body>
+</html>
