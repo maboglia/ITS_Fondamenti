@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" name="" id="titolo">
+    <button id="btnCerca">Cerca</button>
+
+    <div id="result"></div>
+
+
+
+<script>
+    const URL = 'https://api.tvmaze.com/singlesearch/shows?q='
+    const INPUT = document.getElementById('titolo')
+    const BTN = document.getElementById('btnCerca')
+    const RESULT = document.getElementById('result')
+
+    BTN.addEventListener('click', function () {
+        fetch(URL+INPUT.value)
+            .then(res => res.json())
+            .then(res => {
+                const IMG = document.createElement('img')
+                IMG.setAttribute('src', res.image.medium)
+                RESULT.append(IMG)
+            })
+            .catch(err =>  console.log(err))
+    })
+
+
+
+
+
+</script>
+
+</body>
+</html>
