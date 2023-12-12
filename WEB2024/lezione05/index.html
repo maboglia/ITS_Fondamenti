@@ -6,8 +6,17 @@
     <title>Document</title>
 
     <style>
-        #pista {width: 95%;height: 55px; border-bottom: 1px solid green;vertical-align: bottom;}
-        #pista > img {width: 50px;height: 50px;}
+        #pista {width: 95%;
+            height: 55px; 
+            border-bottom: 1px solid green;
+            vertical-align: bottom;
+            
+        }
+        #pista > img {width: 50px;
+            height: 50px; 
+            position: relative;
+            
+        }
     </style>
 </head>
 <body>
@@ -18,7 +27,33 @@
 
     </div>
 
+    <script>
+        const CAR = document.getElementById('car');
+        const PISTA = document.getElementById('pista');
+        let posizione = 0;
+        console.dir(CAR);
 
+        function avanza(km) {
+            posizione += km;
+            CAR.style.left = posizione + 'px'
+        }
+
+        CAR.addEventListener('click', function () {
+            //avanza(5)
+            intervallo
+        } )
+
+        CAR.addEventListener('dblclick', function () {
+            //avanza(5)
+            clearInterval(intervallo) 
+        } )
+
+        const intervallo = setInterval(
+            () => {avanza(5)}, 100
+        )
+
+
+    </script>
 
 </body>
 </html>
