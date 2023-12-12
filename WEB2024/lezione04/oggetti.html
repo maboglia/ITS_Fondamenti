@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+
+        const studente = {
+            nome: 'mauro',
+            cognome: 'boglia',
+            firma: function(){ return this.nome + ' ' + this.cognome}
+        }
+
+        console.log(studente.firma())
+        const studenteJSON = JSON.stringify(studente)
+        console.log(JSON.parse(studenteJSON));
+
+
+    </script>
+
+
+</body>
+</html>

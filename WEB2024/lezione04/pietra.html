@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pietra forbici carta</h1>
+
+
+
+<script>
+
+    const BTN_Pietra = document.createElement('button')
+    const BTN_Forbici = document.createElement('button')
+    const BTN_Carta = document.createElement('button')
+    const RESULT = document.createElement('H2')
+
+    BTN_Pietra.textContent = 'Pietra'
+    BTN_Forbici.textContent = 'Forbici'
+    BTN_Carta.textContent = 'Carta'
+
+    BTN_Pietra.onclick = play
+    BTN_Forbici.onclick = play
+    BTN_Carta.onclick = play
+
+    function play() {
+        
+        let random = Math.random()
+        let sceltaPC = 'Carta'
+        
+        if (random < 0.33){sceltaPC = 'Forbici'}
+        else if  (random < 0.66){sceltaPC = 'Pietra' }
+        
+        let risposta = '';
+        let sceltaUtente = this.textContent
+
+        if (sceltaUtente == sceltaPC){
+            console.log();
+            risposta = 'Pareggio'
+        } else {
+
+            switch(sceltaUtente){
+                case 'Carta':
+                    risposta = (sceltaPC == 'Pietra') ? 'UMANO' : 'MACCHINA'
+                    break;
+                case 'Forbici':
+                risposta = (sceltaPC == 'Carta') ? 'UMANO' : 'MACCHINA'
+                    break;
+                case 'Pietra':
+                risposta = (sceltaPC == 'Forbici') ? 'UMANO' : 'MACCHINA'
+
+                    break;
+            }
+
+            console.log(risposta);
+
+        }
+        RESULT.textContent = 'Umano ' + sceltaUtente + ' macchina ' + sceltaPC + ' result ' + risposta 
+    }
+
+    document.body.prepend(BTN_Pietra, BTN_Carta, BTN_Forbici, RESULT)
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
