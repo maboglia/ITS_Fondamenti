@@ -39,6 +39,7 @@
         const PISTA = document.getElementById('pista');
         let posizione = 0;
         console.dir(CAR);
+        const audio = new Audio('car-crash.wav');
 
         function avanza(km) {
             posizione += km;
@@ -53,6 +54,8 @@
             if (posizione + 50 >= buildingPos.left){
                 console.log('crash');
                 CAR.setAttribute('src', 'crash.jpg')
+                audio.play();
+
                 clearInterval(intervallo)
             }
 
@@ -72,7 +75,29 @@
             () => {avanza(5)}, 100
         )
 
+        document.onkeydown = function(e) {
+            switch(e.which) {
+                case 37: // left
+                avanza(-10)
 
+                break;
+
+                case 38: // up
+                clearInterval(intervallo)
+                break;
+
+                case 39: // right
+                avanza(5)
+                break;
+
+                case 40: // down
+                avanza(1)
+                break;
+
+                default: return; // exit this handler for other keys
+            }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+};
     </script>
 
 </body>
