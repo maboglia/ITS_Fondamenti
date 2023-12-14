@@ -50,20 +50,13 @@
 
         TENDINA.onchange = function () {
             const regione = this.value
-            
-            const xhr = new XMLHttpRequest()
-        console.log(regione.length);
+
             if (regione.length > 0){
-
-            xhr.onreadystatechange = function () {
-                console.log(xhr.readyState);
-                console.log(xhr.status);
-
-                if (xhr.readyState == 4 && xhr.status == 200){
-                    TBODY.innerHTML = ''//svuoto corpo tbody
-                    const paesi = JSON.parse(xhr.responseText)
-
-                    for (const paese of paesi) {
+                TBODY.innerHTML = ''
+                fetch(URL_BASE + regione)
+                    .then(res => res.json())
+                    .then(paesi => {
+                        for (const paese of paesi) {
                         console.log(paese);
 
                         const TR = document.createElement('tr')
@@ -79,15 +72,14 @@
                         TBODY.append(TR)
                         
                     }
-                }
+                    })
+                    .catch(errore => console.log(errore))
 
-            }
 
-            xhr.open('get', URL_BASE + regione)
-            xhr.send()
+
+
+
         }
-            
-        
         }
 
 
