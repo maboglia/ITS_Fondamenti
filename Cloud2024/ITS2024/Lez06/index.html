@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #playground {width: 95%; height: 50px; border-bottom: 1px solid gray;}
+        img#car {width: 50px; height: 50px;position: relative;}
+        img#building {width: 50px; height: 50px;position: relative;left: 500px;}
+    </style>
+</head>
+<body>
+    
+    <div id="playground">
+
+        <img src="car.png" alt="" id="car">
+        <img src="building.png" alt="" id="building">
+    </div>
+
+    <script>
+        const car = document.getElementById('car')
+        const building = document.getElementById('building')
+        let posizione = 0;
+        const intervallo = setInterval( play, 100)
+        const audio = new Audio('crash.mp3')
+        
+
+        function play(km) {
+            if(km===undefined)km=5
+            posizione += km
+            car.style.left = posizione+'px'
+            console.log(posizione);
+
+            if(posizione >=425){
+                audio.play()
+            }
+
+            if(posizione >= 510){
+                console.log('crash');
+                car.setAttribute('src', 'crashed.png')
+                clearInterval(intervallo)
+            }
+        }
+
+        intervallo()
+        
+        document.onkeydown = function (e) {
+            console.log(e.keyCode);
+            e.preventDefault
+        }
+
+
+    </script>
+
+
+</body>
+</html>
