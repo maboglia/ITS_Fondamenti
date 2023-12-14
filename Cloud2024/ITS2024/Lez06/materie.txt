@@ -1,0 +1,29 @@
+Programmazione - .NET Framework / C#
+Programmazione - Java
+Fondamenti di programmazione
+Fondamenti di basi di dati
+Inglese
+Programmazione - NodeJS
+Database nel paradigma Platform
+Architetture Serverless
+Cloud services
+Concetti basilari del mondo Cloud
+Containers
+IoT EDGE
+Linux Server
+Micro Services
+Percorso di sviluppo Soft Skill
+RESTful API
+Orientamento
+Approfondimenti didattici
+Laboratorio Integrato
+Learning by Project
+Reti di calcolatori
+Architetture software per mobile e web
+Fondamenti di Version Control
+Design Thinking 4.0
+Sicurezza informatica
+Copyright e norme giuridiche del mondo digitale
+Laboratorio di preparazione project work
+Pari Opportunità
+Sicurezza sul lavoro
